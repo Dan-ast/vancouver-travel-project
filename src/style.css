@@ -122,7 +122,23 @@ main h5 {
 }
 
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+.card-header.grid {
+    grid-gap: 0;
+}
+
+.card-header img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 section {
@@ -252,5 +268,13 @@ footer a {
 
     section {
         padding: 30px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 }
