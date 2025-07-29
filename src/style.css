@@ -199,6 +199,10 @@ section {
   text-decoration: none;
 }
 
+h3.gallery{
+    margin-bottom: 30px;
+}
+
 footer {
     background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8) ), url("/images/footer-bg-vancouver.jpg");
     background-position: center;
